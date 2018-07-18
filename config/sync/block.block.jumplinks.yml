@@ -1,0 +1,28 @@
+uuid: 44e6bbfc-996f-4691-be11-f6d1444d05d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - jumplink
+    - node
+  theme:
+    - bartik
+id: jumplinks
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: jumplinks
+settings:
+  id: jumplinks
+  label: 'Page Contents'
+  provider: jumplink
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

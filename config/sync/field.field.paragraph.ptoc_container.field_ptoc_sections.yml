@@ -1,18 +1,19 @@
-uuid: 91ef41a8-b924-4a24-ad5f-d4b566450622
+uuid: 7c953820-9320-4251-9045-8ed525644bfc
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_paragraphs
-    - node.type.page
-    - paragraphs.paragraphs_type.basic_text
+    - field.storage.paragraph.field_ptoc_sections
+    - paragraphs.paragraphs_type.ptoc_container
   module:
     - entity_reference_revisions
-id: node.page.field_paragraphs
-field_name: field_paragraphs
-entity_type: node
-bundle: page
-label: Paragraphs
+_core:
+  default_config_hash: '-PIBy0RUFAbgqciWQDkXdCMNNJpU2xG5I3p-t-Ei2Jw'
+id: paragraph.ptoc_container.field_ptoc_sections
+field_name: field_ptoc_sections
+entity_type: paragraph
+bundle: ptoc_container
+label: Subsections
 description: ''
 required: false
 translatable: false
@@ -21,23 +22,18 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 0
-    target_bundles:
-      basic_text: basic_text
+    target_bundles: null
     target_bundles_drag_drop:
-      basic_text:
-        enabled: true
-        weight: 6
       ptoc_container:
-        weight: 7
+        weight: 5
         enabled: false
       ptoc_image:
-        weight: 8
+        weight: 6
         enabled: false
       ptoc_links:
-        weight: 9
+        weight: 7
         enabled: false
       ptoc_text:
-        weight: 10
+        weight: 8
         enabled: false
 field_type: entity_reference_revisions
