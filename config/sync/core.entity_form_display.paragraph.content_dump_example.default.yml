@@ -1,0 +1,35 @@
+uuid: 07ab5cda-b968-4c8c-9d2b-699aba08e03f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_dump_example.field_body_text
+    - field.field.paragraph.content_dump_example.field_title
+    - paragraphs.paragraphs_type.content_dump_example
+  module:
+    - text
+id: paragraph.content_dump_example.default
+targetEntityType: paragraph
+bundle: content_dump_example
+mode: default
+content:
+  field_body_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,13 @@
+.block-jumplinks, .block-sidebar-menu {
+  .jumplinks-header {
+    margin-bottom: 0.5rem;
+
+    @include h3();
+  }
+
+  @include media($sidenav-screen-width) {
+    .jumplinks-mobile-header {
+      display: none;
+    }
+  }
+}

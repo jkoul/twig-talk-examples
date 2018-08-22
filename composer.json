@@ -16,10 +16,12 @@
     }
   ],
   "require": {
+    "bixal/jumplink": "dev-jeremy-twig",
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6",
     "drupal-composer/drupal-scaffold": "^2.5",
     "drupal/admin_toolbar": "^1.24",
+    "drupal/backup_migrate": "^4.0",
     "drupal/console": "^1.0.2",
     "drupal/core": "~8.5.3",
     "drupal/node_class": "^1.0@beta",

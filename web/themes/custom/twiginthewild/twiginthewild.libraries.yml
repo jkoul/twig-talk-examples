@@ -1,0 +1,4 @@
+global_styling:
+  version: 1.0.0
+  js:
+    assets/js/scripts.min.js: {}

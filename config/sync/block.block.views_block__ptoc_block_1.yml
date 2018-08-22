@@ -1,0 +1,35 @@
+uuid: 193395cb-2fb5-460b-8cd8-6eedfc905afa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ptoc
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+_core:
+  default_config_hash: L72_Pyc1qR3dgJ0_-galt7gLxGqURmzoDQDhe3k7feY
+id: views_block__ptoc_block_1
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:ptoc-block_1'
+settings:
+  id: 'views_block:ptoc-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      ptoc_page: ptoc_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

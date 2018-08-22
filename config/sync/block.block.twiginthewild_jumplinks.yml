@@ -1,0 +1,28 @@
+uuid: 2478e029-acfb-4e96-a6b2-17a6b829696f
+langcode: en
+status: true
+dependencies:
+  module:
+    - jumplink
+    - node
+  theme:
+    - twiginthewild
+id: twiginthewild_jumplinks
+theme: twiginthewild
+region: sidebar_first
+weight: 0
+provider: null
+plugin: jumplinks
+settings:
+  id: jumplinks
+  label: 'Jump Links'
+  provider: jumplink
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

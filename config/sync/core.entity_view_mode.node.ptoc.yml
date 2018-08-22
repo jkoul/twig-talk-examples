@@ -1,0 +1,12 @@
+uuid: dbd28398-b83e-4b5f-a541-4f5e93e7da69
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: vqZu1jVbK8R0SlmeJ_e9gXrZLvix3_qtkfB0AfOpPQM
+id: node.ptoc
+label: 'Table of contents'
+targetEntityType: node
+cache: true
