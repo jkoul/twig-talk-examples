@@ -1,0 +1,28 @@
+uuid: a07ff1cc-a82e-4ce5-b463-87f0fddc7d86
+langcode: en
+status: true
+dependencies:
+  module:
+    - jumplink
+    - node
+  theme:
+    - uswds
+id: uswds_jumplinks
+theme: uswds
+region: sidebar_first
+weight: 0
+provider: null
+plugin: jumplinks
+settings:
+  id: jumplinks
+  label: 'Page Contents'
+  provider: jumplink
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

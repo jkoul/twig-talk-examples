@@ -1,0 +1,39 @@
+uuid: bf92ec5b-bb4e-4ac6-ac5b-01fa626e4ac8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.alert_box.field_alert_body
+    - field.field.paragraph.alert_box.field_alert_heading
+    - field.field.paragraph.alert_box.field_alert_type
+    - paragraphs.paragraphs_type.alert_box
+  module:
+    - options
+    - text
+id: paragraph.alert_box.default
+targetEntityType: paragraph
+bundle: alert_box
+mode: default
+content:
+  field_alert_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_alert_heading:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_alert_type:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

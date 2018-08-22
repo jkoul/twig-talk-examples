@@ -1,0 +1,9 @@
+uuid: 759f8fbf-a70e-4238-8c39-e19b3d64ba61
+langcode: en
+status: true
+dependencies: {  }
+id: content_dump_example
+label: 'Content Dump Example'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

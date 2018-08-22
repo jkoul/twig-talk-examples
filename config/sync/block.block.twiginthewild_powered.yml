@@ -1,0 +1,22 @@
+uuid: 15889c39-dcea-45e8-a800-f89b8ab0d0b7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - twiginthewild
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: twiginthewild_powered
+theme: twiginthewild
+region: header_top
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

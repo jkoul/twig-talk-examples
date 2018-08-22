@@ -1,0 +1,9 @@
+uuid: 7441cfd9-fe34-4a7d-bf0c-443cf3d8a88e
+langcode: en
+status: true
+dependencies: {  }
+id: alert_box
+label: 'Alert Box'
+icon_uuid: null
+description: 'Alerts with USWDS theming'
+behavior_plugins: {  }

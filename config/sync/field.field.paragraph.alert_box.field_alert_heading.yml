@@ -1,0 +1,19 @@
+uuid: b761e914-5cdd-4c78-9530-3b74d0d5e255
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_alert_heading
+    - paragraphs.paragraphs_type.alert_box
+id: paragraph.alert_box.field_alert_heading
+field_name: field_alert_heading
+entity_type: paragraph
+bundle: alert_box
+label: 'Alert Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
