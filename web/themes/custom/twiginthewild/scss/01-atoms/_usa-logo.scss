@@ -1,0 +1,16 @@
+.usa-header-basic .usa-logo {
+  position: relative;
+
+  .usa-logo-text {
+    font-style: italic;
+    font-size: 4.2rem;
+    line-height: 5rem;
+    padding: 1.4rem 0;
+    letter-spacing: .5px;
+
+    a {
+      display: block;
+      color: $color-white;
+    }
+  }
+}

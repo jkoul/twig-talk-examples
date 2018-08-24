@@ -1,0 +1,35 @@
+.usa-nav-container {
+  background: $bixal-red;
+  line-height: 0;
+
+  @include media($nav-width) {
+    .usa-navbar {
+      width: auto;
+      max-width: 35rem;
+    }
+
+    .usa-nav {
+      display: inline-block;
+      padding-top: 3rem;
+      padding-bottom: .5rem;
+      background: none;
+
+      .usa-nav-primary {
+        margin-top: 0;
+
+        .usa-nav-link {
+          color: $color-white;
+          // font-weight: $font-normal;
+          padding-bottom: 1.5rem;
+
+          &.usa-current, &:hover {
+            span {
+              color: $color-white;
+              border-bottom: 1px solid $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

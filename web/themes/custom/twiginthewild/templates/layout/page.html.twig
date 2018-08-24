@@ -115,9 +115,11 @@
 </section>
 
 <footer class="{{ footer_classes }}" role="contentinfo">
-  <div class="usa-grid usa-footer-return-to-top">
-    <a href="#">Return to top</a>
-  </div>
+  {% if not front %}
+    <div class="usa-grid usa-footer-return-to-top">
+      <a href="#">Return to top</a>
+    </div>
+  {% endif %}
 
   {% if display_footer_primary %}
   <div class="usa-footer-primary-section">
@@ -240,5 +242,11 @@
 
   </div>
   {% endif %}
+
+  <div class="footer-inner">
+    <div class="footer-disclaimer">
+      {{ 'Lest you be deceived by the banner at the top of this site, this is not an official website of the United States government. Inclusion of the government banner is intended solely to demonstrate usage of the <a href="https://designsystem.digital.gov/">US Web Design System</a>, developed by 18F and the U.S. Digital Service, and its <a href="https://www.drupal.org/project/uswds">Drupal implementation</a>. Yadda yadda lawyers.'|t }}
+    </div>
+  </div>
 
 </footer>

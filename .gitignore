@@ -36,3 +36,4 @@ node_modules/
 *.sql
 *.sql.gz
 *.mysql
+*.mysql.gz
