@@ -1,0 +1,7 @@
+@include font-face(
+  'Tisa Pro',
+  '#{$font-path}/tisa-pro-bold-italic',
+  700,
+  italic,
+  $file-formats: otf
+);

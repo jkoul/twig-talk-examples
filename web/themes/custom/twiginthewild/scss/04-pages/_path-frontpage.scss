@@ -1,0 +1,13 @@
+.path-frontpage {
+  .node--type-page {
+    .field--name-body, .field--name-field-paragraphs {
+      max-width: 65rem;
+      margin: 2rem auto;
+      text-align: center;
+    }
+  }
+
+  .usa-footer-return-to-top {
+    display: none;
+  }
+}

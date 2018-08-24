@@ -2,6 +2,8 @@ uuid: ff204b0f-b2c1-4723-964e-7bcae7f78ad2
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - twiginthewild
 _core:
@@ -17,4 +19,9 @@ settings:
   label: 'Primary admin actions'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }
